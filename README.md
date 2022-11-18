@@ -49,6 +49,6 @@ function swap(input, i, j) {
 }
 
 function printArray(input, delimiter) {
-        console.log(input);
+    console.log(input);
 }
 ```
