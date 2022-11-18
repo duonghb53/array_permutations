@@ -1,5 +1,5 @@
 ## 1. Introduction
-In this article, we'll look at how to create permutations of an array.
+In this article, we'll look at how to create [permutations of an array](https://www.baeldung.com/cs/array-generate-all-permutations).
 
 First, we'll define what a permutation is. Second, we'll look at some constraints. And third, we'll look at three ways to calculate them: recursively, iteratively, and randomly.
 
@@ -13,8 +13,9 @@ The array of integers `[3,4,7]` has three elements and six permutations:
 `n! = 3! = 1 x 2 x 3 = 6`
 
 **Permutations**: `[3,4,7]; [3,7,4]; [4,7,3]; [4,3,7]; [7,3,4]; [7,4,3]`
-2.2. Constraints
+### 2.2. Constraints
 The number of permutation increases fast with n. While it takes only a few seconds to generate all permutations of ten elements, it will take two weeks to generate all permutations of 15 elements:
+![image](image.webp)
 
 ## 3. Algorithms
 ### 3.1. Recursive Algorithm
